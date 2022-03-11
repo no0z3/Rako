@@ -1,0 +1,495 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <base href="./">
+  <title>Rako - Stellenvermittlung </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/tiny-slider.css">
+  <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta1.min.css">
+  <link rel="stylesheet" href="assets/css/default.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<!--====== PRELOADER PART START ======-->
+
+<div class="preloader">
+  <div class="loader">
+    <div class="ytp-spinner">
+      <div class="ytp-spinner-container">
+        <div class="ytp-spinner-rotator">
+          <div class="ytp-spinner-left">
+            <div class="ytp-spinner-circle"></div>
+          </div>
+          <div class="ytp-spinner-right">
+            <div class="ytp-spinner-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--====== PRELOADER PART ENDS ======-->
+
+<!--====== HEADER PART START ======-->
+
+<section id="home" class="header_area">
+  <div id="header_navbar" class="header_navbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img id="logo" src="assets/images/logo_rako.PNG" alt="Logo">
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+              <ul id="nav" class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="page-scroll active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#about">Arbeitgeber</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#blog">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#contact">Kontakt</a>
+                </li>
+              </ul>
+            </div> <!-- navbar collapse -->
+          </nav> <!-- navbar -->
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- header navbar -->
+
+  <div class="header_hero">
+    <div class="single_hero bg_cover d-flex align-items-center" style="background-image: url(assets/images/hero_2.jpg)">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <div class="hero_content text-center">
+              <h2 class="hero_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Rako</br>
+                Temporärvermittlung im Gesundheitswesen</h2>
+              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. <br class="d-none d-xl-block"> Lorem Ipsum it amet, consectetur
+                adipiscing elit. Integer id ante rhoncus, rutrum sem eget, semper felis. Donec nulla nisl, auctor vitae
+                pretium nec, vehicula sit amet dolor. </p>
+              <button type="button" class="main-btn mx-auto d-block mt-5" data-bs-toggle="modal"
+                      data-bs-target="#modalForm">
+                Unverbindliche Telefonische Beratung (24H Hotline)
+              </button>
+            </div> <!-- hero content -->
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </div> <!-- single hero -->
+  </div> <!-- header hero -->
+</section>
+
+<!--====== HEADER PART ENDS ======-->
+
+<!--====== FEATURES PART START ======-->
+
+<!--    <section id="features" class="features_area pt-120">-->
+<!--        <div class="container">-->
+<!--            <div class="row justify-content-center">-->
+<!--                <div class="col-lg-6">-->
+<!--                    <div class="section_title text-center pb-25">-->
+<!--                        <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Why Choose Us</h4>-->
+<!--                        <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor sit-->
+<!--                            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore.</p>-->
+<!--                    </div> &lt;!&ndash; section title &ndash;&gt;-->
+<!--                </div>-->
+<!--            </div> &lt;!&ndash; row &ndash;&gt;-->
+<!--            <div class="row justify-content-center">-->
+<!--                <div class="col-lg-4 col-md-7">-->
+<!--                    <div class="single_features text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"-->
+<!--                        data-wow-delay="0.2s">-->
+<!--                        <i class="lni lni-layers"></i>-->
+<!--                        <h4 class="features_title">Bootstrap 5 Based</a></h4>-->
+<!--                        <p>Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore magna .</p>-->
+<!--                    </div> &lt;!&ndash; single features &ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-7">-->
+<!--                    <div class="single_features text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"-->
+<!--                        data-wow-delay="0.4s">-->
+<!--                        <i class="lni lni-layout"></i>-->
+<!--                        <h4 class="features_title">Clean Design</a></h4>-->
+<!--                        <p>Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore magna .</p>-->
+<!--                    </div> &lt;!&ndash; single features &ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-7">-->
+<!--                    <div class="single_features text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"-->
+<!--                        data-wow-delay="0.6s">-->
+<!--                        <i class="lni lni-bolt"></i>-->
+<!--                        <h4 class="features_title">Cutting-edge Features</a></h4>-->
+<!--                        <p>Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore magna .</p>-->
+<!--                    </div> &lt;!&ndash; single features &ndash;&gt;-->
+<!--                </div>-->
+<!--            </div> &lt;!&ndash; row &ndash;&gt;-->
+<!--        </div> &lt;!&ndash; container &ndash;&gt;-->
+<!--    </section>-->
+
+<!--====== FEATURES PART ENDS ======-->
+
+<!--====== ABOUT PART START ======-->
+
+<section id="about" class="pt-130">
+  <div class="about_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about_content pt-120 pb-130">
+            <div class="section_title pb">
+              <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Für Arbeitgeber</h4>
+              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor
+                sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores et erebum</p>
+              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s">Lorem ipsum dolor
+                sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                ut labore etdolore maali quyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores</p>
+            </div> <!-- section title -->
+            <button type="button" class="main-btn wow fadeInUp" data-bs-toggle="modal" data-bs-target="#personalSuche">
+              Ich suche Personal
+            </button>
+          </div> <!-- about content -->
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container -->
+
+    <div class="modal fade" id="personalSuche" tabindex="-1" aria-labelledby="personalSucheLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="title" id="personalSucheLabel">Online Personalanfrage</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form>
+            <div class="modal-body">
+              <!-- Name input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="firma">Firma</label>
+                <input type="text" id="firma" class="form-control"/>
+              </div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="nameArbeitgeber">Name</label>
+                <input type="text" id="nameArbeitgeber" class="form-control"/>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="emailAdress">Email Adresse</label>
+                <input type="email" id="emailAdress" class="form-control"/>
+              </div>
+
+<!--              Document Upload-->
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Dokumentupload</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="stellenBeschrieb">Stellenbeschrieb</label>
+                <textarea class="form-control" id="stellenBeschrieb" rows="4"></textarea>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Abbrechen</button>
+              <button type="button" class="btn btn-primary">Anfrage Senden</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="about_image bg_cover wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.2s"
+         style="background-image: url(assets/images/about.jpg)">
+    </div> <!-- about image -->
+  </div>
+</section>
+
+<!--====== ABOUT PART ENDS ======-->
+
+<!--FÜR ARBEITSNEHMER STARTS  -->
+<section id="about" class="pt-130">
+
+  <div class="about_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about_content pt-120 pb-130">
+            <div class="section_title pb">
+              <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Für Arbeitnehmer</h4>
+              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor
+                sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores et erebum</p>
+              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s">Lorem ipsum dolor
+                sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                ut labore etdolore maali quyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores</p>
+            </div> <!-- section title -->
+            <a href="#0" class="main-btn wow fadeInUp" data-wow-duration="1.3s"
+               data-wow-delay="0.7s">Spontanbewerbung</a>
+          </div> <!-- about content -->
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container -->
+
+    <div class="about_image bg_cover wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.2s"
+         style="background-image: url(assets/images/hero.jpg)">
+    </div> <!-- about image -->
+  </div>
+</section>
+<!--FÜR ARBEITNEHMER  ENDS-->
+
+
+<!--====== TEAM PART START ======-->
+
+<section id="team" class="team_area pt-120 pb-130">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section_title text-center pb-25">
+          <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Meet The Team</h4>
+          <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore.</p>
+        </div> <!-- section title -->
+      </div>
+    </div> <!-- row -->
+    <div class="row justify-content-center team_active">
+      <div class="col-lg-4 col-md-8 col-sm-10">
+        <div class="single_team mt-30 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+          <img src="assets/images/team-1.jpg" alt="team">
+
+          <div class="team_content">
+            <h4 class="team_name"><a href="#0">Denis R.</a></h4>
+            <p>Head Of Ideas</p>
+            <ul class="social">
+              <li><a href="#0"><i class="lni lni-facebook-filled"></i></a></li>
+              <li><a href="#0"><i class="lni lni-twitter-original"></i></a></li>
+              <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
+            </ul>
+          </div>
+        </div> <!-- single team -->
+      </div>
+      <div class="col-lg-4 col-md-8 col-sm-10">
+        <div class="single_team mt-30 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s">
+          <img src="assets/images/team-2.jpg" alt="team">
+
+          <div class="team_content">
+            <h4 class="team_name"><a href="#0">Marcel Rast</a></h4>
+            <p>HR/Administration</p>
+            <ul class="social">
+              <li><a href="#0"><i class="lni lni-facebook-filled"></i></a></li>
+              <li><a href="#0"><i class="lni lni-twitter-original"></i></a></li>
+              <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
+            </ul>
+          </div>
+        </div> <!-- single team -->
+      </div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+
+<!--====== TEAM PART ENDS ======-->
+
+<!--====== BLOG PART START ======-->
+
+<section id="blog" class="blog_area pt-120 pb-130">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section_title text-center pb-25">
+          <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">News</h4>
+          <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore.</p>
+        </div> <!-- section title -->
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="single_blog mt-30 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+          <div class="blog_image">
+            <img src="assets/images/blog-1.jpg" alt="blog">
+          </div>
+          <div class="blog_content">
+            <h3 class="blog_title"><a href="#0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+              eirmod tempor .</a></h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor
+              dolore.Lorem ipsum dolor sit amet, conse sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor
+              dolore magna .Lorem ipsum dolor sit amet, consetetur sadipscing elit.</p>
+          </div>
+        </div> <!-- single blog -->
+      </div>
+      <div class="col-lg-6">
+        <div class="single_blog blog_2 d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.3s"
+             data-wow-delay="0.2s">
+          <div class="blog_image">
+            <img src="assets/images/blog-2.jpg" alt="blog">
+          </div>
+          <div class="blog_content media-body">
+            <h3 class="blog_title"><a href="#0">Lorem ipsum dolor sit amet, consetetur sadipscing .</a></h3>
+            <p>Lorem ipsum dolor sit consetetur sadipscing elitr, sed diam.</p>
+            <a href="#0" class="more">Read More</a>
+          </div>
+        </div> <!-- single blog -->
+
+        <div class="single_blog blog_2 d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.3s"
+             data-wow-delay="0.3s">
+          <div class="blog_image">
+            <img src="assets/images/blog-3.jpg" alt="blog">
+          </div>
+          <div class="blog_content media-body">
+            <h3 class="blog_title"><a href="#0">Lorem ipsum dolor sit amet, consetetur sadipscing .</a></h3>
+            <p>Lorem ipsum dolor sit consetetur sadipscing elitr, sed diam.</p>
+            <a href="#0" class="more">Read More</a>
+          </div>
+        </div> <!-- single blog -->
+
+        <div class="single_blog blog_2 d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.3s"
+             data-wow-delay="0.4s">
+          <div class="blog_image">
+            <img src="assets/images/blog-4.jpg" alt="blog">
+          </div>
+          <div class="blog_content media-body">
+            <h3 class="blog_title"><a href="#0">Lorem ipsum dolor sit amet, consetetur sadipscing .</a></h3>
+            <p>Lorem ipsum dolor sit consetetur sadipscing elitr, sed diam.</p>
+            <a href="#0" class="more">Read More</a>
+          </div>
+        </div> <!-- single blog -->
+      </div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+
+<!--====== BLOG PART ENDS ======-->
+
+<!--====== CONTACT PART START ======-->
+
+<section id="contact" class="contact_area bg_cover pt-120 pb-130"
+         style="background-image: url(assets/images/contact_bg.jpg)">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section_title section_title_2 text-center pb-25">
+          <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Kontakt</h4>
+          <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore.</p>
+        </div> <!-- section title -->
+      </div>
+    </div> <!-- row -->
+
+    <form id="contact-form" action="assets/contact.php" method="post" class="wow fadeInUp"
+          data-wow-duration="1.3s" data-wow-delay="0.4s">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="single_form">
+            <input type="text" placeholder="Name" name="name" id="name" required>
+          </div> <!-- single form -->
+        </div>
+        <div class="col-lg-6">
+          <div class="single_form">
+            <input type="email" placeholder="Email" name="email" id="email" required>
+          </div> <!-- single form -->
+        </div>
+        <div class="col-lg-6">
+          <div class="single_form">
+            <input type="text" placeholder="Telefon Nr." name="number" id="number" required>
+          </div> <!-- single form -->
+        </div>
+        <div class="col-lg-6">
+          <div class="single_form">
+            <input type="text" placeholder="Dokumentupload" name="subject" id="subject" required>
+          </div> <!-- single form -->
+        </div>
+        <div class="col-lg-12">
+          <div class="single_form">
+            <textarea placeholder="Nachricht" name="message" id="message" required></textarea>
+          </div> <!-- single form -->
+        </div>
+
+        <p class="form-message"></p>
+
+        <div class="col-lg-12">
+          <div class="single_form text-center">
+            <button class="main-btn" type="submit">Absenden</button>
+          </div> <!-- single form -->
+        </div>
+      </div> <!-- row -->
+    </form>
+  </div> <!-- container -->
+</section>
+
+<!--====== CONTACT PART ENDS ======-->
+
+<!--====== FOOTER PART START ======-->
+
+<footer id="footer" class="footer_area">
+  <div class="container">
+    <div class="footer_wrapper text-center d-lg-flex align-items-center justify-content-between">
+      <p class="credit">Designed and Developed by Miguel Gomes</p>
+      <div class="footer_social pt-15">
+        <ul>
+          <li><a href="#0"><i class="lni lni-facebook-original"></i></a></li>
+          <li><a href="#0"><i class="lni lni-twitter-original"></i></a></li>
+          <li><a href="#0"><i class="lni lni-instagram-original"></i></a></li>
+          <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
+        </ul>
+      </div> <!-- footer social -->
+    </div> <!-- footer wrapper -->
+  </div> <!-- container -->
+</footer>
+
+<!--====== FOOTER PART ENDS ======-->
+
+<!--====== BACK TOP TOP PART START ======-->
+
+<a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+<!--====== BACK TOP TOP PART ENDS ======-->
+
+
+<!--====== Bootstrap js ======-->
+<script src="assets/js/bootstrap.bundle-5.0.0-beta1.min.js"></script>
+
+<!--====== glide js ======-->
+<script src="assets/js/tiny-slider.js"></script>
+
+<!--====== wow js ======-->
+<script src="assets/js/wow.min.js"></script>
+
+<!--====== Main js ======-->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
